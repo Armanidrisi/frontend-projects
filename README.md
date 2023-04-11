@@ -9,7 +9,7 @@ This repository contains a collection of frontend projects created by Arman Idri
 
 | Project Name | Link |
 | --- | --- |
-| Landing Page | [Click Here](./landing_page) |
+| Landing Page | [Click Here](./project-1) |
 
 ## Installation 🚀
 
