@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="center">
+      <form name="forms">
+        <input type="text" id="display" name="display" disabled />
+        <div class="buttons">
+          <input type="button" id="btn" value="7" />
+          <input type="button" id="btn" value="8" />
+          <input type="button" id="btn" value="9" />
+          <input type="button" id="btn" value="/" /><br />
+          <input type="button" id="btn" value="4" />
+          <input type="button" id="btn" value="5" />
+          <input type="button" id="btn" value="6" />
+          <input type="button" id="btn" value="*" /><br />
+          <input type="button" id="btn" value="1" />
+          <input type="button" id="btn" value="2" />
+          <input type="button" id="btn" value="3" />
+          <input type="button" id="btn" value="-" /><br />
+          <input type="button" id="btn" value="." />
+          <input type="button" id="btn" value="0" />
+          <input type="button" id="btn" value="+" />
+          <input
+            type="button"
+            id="clear"
+            value="C"
+            onclick="document.forms.display.value=''"
+          /><br />
+          <input
+            type="button"
+            id="equal"
+            value="="
+            onclick="document.forms.display.value=eval(document.forms.display.value)"
+          />
+        </div>
+      </form>
+    </div>
+    <script type="text/javascript" charset="utf-8" src="js/index.js"></script>
+  </body>
+</html>

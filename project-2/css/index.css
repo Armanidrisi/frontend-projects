@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: montserrat;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(#9cebfc, #6ae1fb);
+}
+.center {
+  /* display: none; */
+  width: 350px;
+  background: black;
+  border-radius: 20px;
+}
+input[type="text"] {
+  height: 60px;
+  width: 300px;
+  margin-top: 40px;
+  border-radius: 1px;
+  border: 1px solid #e1e7ea;
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 20px;
+  background: linear-gradient(#d1dce0, #dfe6e9);
+}
+form .buttons {
+  width: 300px;
+  margin: 10px 25px 0 25px;
+  padding: 10px 0;
+}
+input[type="button"] {
+  width: 58px;
+  height: 55px;
+  margin: 5px;
+  font-size: 22px;
+  line-height: 55px;
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+  background: linear-gradient(#d9d9d9, #bfbfbf);
+}
+input[type="button"]:hover {
+  transition: 0.5s;
+  background: linear-gradient(#bfbfbf, #d9d9d9);
+}
+input#clear {
+  background: #ff1a1a;
+  border: 1px solid #cc0000;
+  color: white;
+}
+input#equal {
+  width: 275px;
+  margin: 10px 0 10px 0;
+  font-size: 30px;
+  color: white;
+  background: #ff3d00;
+  border: 1px solid #b32a00;
+}

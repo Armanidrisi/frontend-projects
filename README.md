@@ -7,9 +7,10 @@ This repository contains a collection of frontend projects created by Arman Idri
 
 ## Projects 📂
 
-| Project Name | Link |
-| --- | --- |
-| Landing Page | [Click Here](./landing_page) |
+| #   | Project Name | Link                         |
+| --- | ------------ | ---------------------------- |
+| 01  | Landing Page | [Click Here](./project-1) |
+| 02  | Calculator | [Click Here](./project-2) |
 
 ## Installation 🚀
 
@@ -18,7 +19,6 @@ To run any of the projects locally, simply clone this repository using the follo
 ```bash
 git clone https://github.com/ArmanIdrisi/frontend-projects.git
 ```
-
 
 ## Usage 💻
 
@@ -31,4 +31,3 @@ Contributions to this repository are welcome! If you have a project you'd like t
 ## License 📝
 
 This repository is licensed under the MIT license. See [LICENSE](/LICENSE) for more information.
-
