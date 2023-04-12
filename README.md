@@ -7,10 +7,11 @@ This repository contains a collection of frontend projects created by Arman Idri
 
 ## Projects 📂
 
-| #   | Project Name | Link                      |
-| --- | ------------ | ------------------------- |
-| 01  | Landing Page | [Click Here](./project-1) |
-| 02  | Calculator   | [Click Here](./project-2) |
+| #   | Project Name    | Link                                      |
+| --- | --------------- | ----------------------------------------- |
+| 01  | Landing Page    | [Click Here](./project-1)                 |
+| 02  | Calculator      | [Click Here](./project-2)                 |
+| 03  | Wavy Login Form | [Click Here](./project-3_wavy_login_form) |
 
 ## Installation 🚀
 
