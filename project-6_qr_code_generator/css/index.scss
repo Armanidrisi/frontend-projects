@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+body {
+  background-color: rgb(202, 215, 216);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 450px;
+  width: 100%;
+  padding: 20px;
+  margin: 100px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  h1 {
+    font-palette: 18px;
+    background: #1b1b1b;
+    font-weight: 300;
+    padding: 25px 0;
+    margin: -20px -20px 20px -20px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+    color: rgb(255, 255, 255);
+  }
+  form {
+    input {
+      width: 100%;
+      outline: none;
+      border: 1.5px solid #ccc;
+      height: 45px;
+      border-radius: 3px;
+      padding: 0 10px;
+      background: #fff;
+      margin-bottom: 0.7rem;
+      font-size: 18px;
+    }
+    button {
+      width: 100%;
+      outline: none;
+      border: none;
+      height: 45px;
+      border-radius: 3px;
+      padding: 0 10px;
+      background: #1b1b1b;
+      margin-bottom: 0.7rem;
+      font-size: 18px;
+      color: white;
+    }
+    #qrcode-container {
+      display: none;
+      justify-content: center;
+    }
+
+    .qrcode {
+      padding: 10px;
+      margin-bottom: 15px;
+    }
+    .qrcode img {
+      margin: 0 auto;
+      box-shadow: 0 2px 3px rgba(67, 67, 68, 0.25);
+      padding: 4px;
+    }
+  }
+}
