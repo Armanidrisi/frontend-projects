@@ -10,7 +10,7 @@ This repository contains a collection of frontend projects created by Arman Idri
 | #   | Project Name | Link                      |
 | --- | ------------ | ------------------------- |
 | 01  | Landing Page | [Click Here](./project-1_landing-page) |
-| 02  | Calculator   | [Click Here](./project-2-calculator) |
+| 02  | Calculator   | [Click Here](./project-2_calculator) |
 
 ## Installation 🚀
 
