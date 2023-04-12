@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #81d4fa;
+}
+.btn {
+  background: white;
+  border-radius: 60px;
+  outline: none;
+  border: none;
+  padding: 6px;
+  height: 60px;
+  width: 50%;
+  font-size: 18px;
+  font-weight: bold;
+}
+.btn:hover,
+.btn:active {
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
