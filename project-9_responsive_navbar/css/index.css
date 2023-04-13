@@ -1,0 +1,125 @@
+/* Import font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: #047aed;
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  width: 100vw;
+  height: 74px;
+  background-color: #1b1b1b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.navbar .logo {
+  color: #fff;
+  font-weight: 300;
+}
+.navbar .logo h1 span {
+  color: red;
+}
+.navbar #toggler {
+  display: none;
+}
+
+.navbar .burger {
+  position: relative;
+  width: 56px;
+  height: 55px;
+  border-radius: 3px;
+  cursor: pointer;
+  display: none;
+}
+
+.navbar .bun {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 9px;
+  left: 9px;
+  transition: transform 0.18s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.15s;
+}
+
+.navbar .bun__crust {
+  position: absolute;
+  display: block;
+  width: 17px;
+  height: 1px;
+  background-color: #fff;
+  border-radius: 1px;
+  left: 7px;
+  transition: transform 0.1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.2s;
+}
+
+.navbar .bun__crust--top {
+  top: 14px;
+
+  transform: translateY(-3px);
+}
+
+.navbar .bun__crust--bottom {
+  bottom: 14px;
+
+  transform: translateY(3px);
+}
+
+.navbar #toggler:checked + .burger .bun--top {
+  transform: rotate(45deg);
+}
+
+.navbar #toggler:checked + .burger .bun--bottom {
+  transform: rotate(-45deg);
+}
+
+.navbar #toggler:checked + .burger .bun__crust--top,
+.navbar #toggler:checked + .burger .bun__crust--bottom {
+  transform: none;
+  transition: transform 0.1806s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+}
+.navbar #toggler:checked ~ ul {
+  left: 50%;
+}
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  transition: 0.4s ease-in-out;
+}
+.navbar ul li {
+  padding: 0 20px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.navbar ul li a:hover {
+  color: red;
+}
+
+/*For Responsiveness */
+@media (max-width: 760px) {
+  .navbar .burger {
+    display: block;
+  }
+  .navbar ul {
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    top: 74px;
+    left: -100%;
+    transform: translateX(-50%);
+
+    width: 100%;
+    background: #1b1b1b;
+  }
+  .navbar ul li {
+    margin: 1.5rem 0;
+  }
+}
