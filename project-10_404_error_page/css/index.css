@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8e8e8;
+}
+.container {
+  text-align: center;
+}
+.container img {
+  width: 550px;
+}
+.container h1 {
+  font-size: 45px;
+}
+.container p {
+  font-size: 25px;
+  margin: 20px 0;
+  color: #004273;
+}
+.container button {
+  padding: 5px;
+  width: 30%;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  background: #004273;
+  color: white;
+  margin: 10px 0 0 0;
+}
+
+/*For Responsiveness*/
+@media (max-width: 760px) {
+  .container img {
+    width: 100%;
+  }
+  .container h1 {
+    font-size: 33px;
+  }
+  .container p {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+}
