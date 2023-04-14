@@ -16,6 +16,10 @@ This repository contains a collection of frontend projects created by Arman Idri
 | 05  | Random Background Changer| [Click Here](./project-5_random_color_changer) |
 | 06  | Qr Code Generator| [Click Here](./project-6_qr_code_generator) |
 | 07  | Stopwatch Timer| [Click Here](./project-7_stopwatch_timer) |
+| 08 | Password Generator| [Click Here](./project-8_password_generator) |
+| 09 |Responsive Navbar| [Click Here](./project-9_responsive_navbar) |
+
+
 
 ## Installation 🚀
 
