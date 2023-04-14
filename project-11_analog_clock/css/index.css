@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#clockContainer {
+  position: relative;
+  height: 40vw;
+  width: 40vw;
+  background: url(https://i.ibb.co/K7wS7TF/imgonlinecomua-Compress-To-Size-Om-NATj-UMFKw-300x300.jpg) no-repeat;
+  background-size: 100%;
+}
+
+#clockContainer #hour,
+#clockContainer #minute,
+#clockContainer #second {
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+
+#clockContainer #hour {
+  width: 1.8%;
+  height: 25%;
+  top: 25%;
+  left: 48.85%;
+  opacity: 0.8;
+}
+
+#clockContainer #minute {
+  width: 1.6%;
+  height: 30%;
+  top: 19%;
+  left: 48.9%;
+  opacity: 0.8;
+}
+
+#clockContainer #second {
+  width: 1%;
+  height: 40%;
+  top: 9%;
+  left: 49.25%;
+  opacity: 0.8;
+}
