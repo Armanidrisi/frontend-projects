@@ -18,7 +18,7 @@ This repository contains a collection of frontend projects created by Arman Idri
 | 07  | Stopwatch Timer| [Click Here](./project-7_stopwatch_timer) |
 | 08 | Password Generator| [Click Here](./project-8_password_generator) |
 | 09 |Responsive Navbar| [Click Here](./project-9_responsive_navbar) |
-
+| 10 | 404 Error Page| [Click Here](./project-10_404_error_page) |
 
 
 ## Installation 🚀
