@@ -19,7 +19,9 @@ This repository contains a collection of frontend projects created by Arman Idri
 | 08 | Password Generator| [Click Here](./project-8_password_generator) |
 | 09 |Responsive Navbar| [Click Here](./project-9_responsive_navbar) |
 | 10 | 404 Error Page| [Click Here](./project-10_404_error_page) |
+| 11 | Analog Clock| [Click Here](./project-11_analog_clock) |
 
+### Daily Adding New Projects 
 
 ## Installation 🚀
 
