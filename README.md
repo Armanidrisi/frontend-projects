@@ -22,6 +22,9 @@ This repository contains a collection of frontend projects created by Arman Idri
 | 11 | Analog Clock| [Click Here](./project-11_analog_clock) |
 | 12 | Contact Form| [Click Here](./project-12_contact_form) |
 | 13 | Analog Clock| [Click Here](./project-13_profile_card) |
+| 14 | Music Preloader| [Click Here](./project-14_music_loader) |
+
+
 ### Daily Adding New Projects 
 
 ## Installation 🚀
