@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.loader {
+  display: flex;
+}
+
+.bar {
+  width: 6px;
+  height: 20px;
+  margin: 0 4px;
+  background-color: #000;
+  border-radius: 4px;
+  animation: loader 1s ease-in-out infinite;
+}
+.bar:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.bar:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.bar:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.bar:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.bar:nth-child(5) {
+  animation-delay: 0.4s;
+}
+@keyframes loader {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1, 2);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
