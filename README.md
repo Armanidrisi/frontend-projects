@@ -20,7 +20,8 @@ This repository contains a collection of frontend projects created by Arman Idri
 | 09 |Responsive Navbar| [Click Here](./project-9_responsive_navbar) |
 | 10 | 404 Error Page| [Click Here](./project-10_404_error_page) |
 | 11 | Analog Clock| [Click Here](./project-11_analog_clock) |
-
+| 12 | Contact Form| [Click Here](./project-12_contact_form) |
+| 13 | Analog Clock| [Click Here](./project-13_profile_card) |
 ### Daily Adding New Projects 
 
 ## Installation 🚀
