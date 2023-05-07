@@ -25,7 +25,7 @@ This repository contains a collection of frontend projects created by Arman Idri
 | 14 | Music Preloader| [Click Here](./project-14_music_loader) |
 
 
-### Daily Adding New Projects 
+### Adding New Projects 
 
 ## Installation 🚀
 
