@@ -9,7 +9,7 @@ This repository contains a collection of frontend projects created by Arman Idri
 
 | #   | Project Name    | Link                                      |
 | --- | --------------- | ----------------------------------------- |
-| 01  | Landing Page    | [Click Here](./project-1)                 |
+| 01  | Landing Page    | [Click Here](./project-1_landing-page)                 |
 | 02  | Calculator      | [Click Here](./project-2)                 |
 | 03  | Wavy Login Form | [Click Here](./project-3_wavy_login_form) |
 | 04  | Random Quote Generator| [Click Here](./project-4_random_quote_generator) |
