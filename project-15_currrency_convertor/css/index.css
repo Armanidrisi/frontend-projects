@@ -1,0 +1,101 @@
+/* Global styles */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: steelblue;
+}
+
+/* Container for the entire form */
+.wrapper {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 30px 0;
+  max-width: 430px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Header style */
+h2 {
+  font-weight: 500;
+  color: white;
+}
+
+/* Styles for currency input section */
+.currency-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.currency-input label {
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.currency-input input {
+  width: 50%;
+  padding: 10px;
+  margin-top: 3px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Styles for currency select boxes */
+.select-box {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.select {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.select label {
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.select select {
+  width: 100%;
+  margin-top: 3px;
+  padding: 10px;
+  outline: none;
+}
+
+/* Button styles */
+button {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 10px;
+  background: lightblue;
+  padding: 15px;
+  font-family: inherit;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+}
+
+/* Output paragraph style */
+p.output {
+  font-weight: 300;
+  color: white;
+  display: none;
+}

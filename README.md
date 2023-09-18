@@ -3,29 +3,92 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/ArmanIdrisi/frontend-projects)](https://github.com/ArmanIdrisi/frontend-projects/graphs/contributors)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ArmanIdrisi/frontend-projects)](https://github.com/ArmanIdrisi/frontend-projects/commits/main)
 
-This repository contains a collection of frontend projects created by Arman Idrisi. Each project is built using HTML, CSS, and JavaScript.
+This repository contains a collection of frontend projects created by [Arman Idrisi](https://github.com/ArmanIdrisi). Each project is built using HTML, CSS, and JavaScript.
 
 ## Projects 📂
 
-| #   | Project Name    | Link                                      |
-| --- | --------------- | ----------------------------------------- |
-| 01  | Landing Page    | [Click Here](./project-1_landing-page)                 |
-| 02  | Calculator      | [Click Here](./project-2_calculator)                 |
-| 03  | Wavy Login Form | [Click Here](./project-3_wavy_login_form) |
-| 04  | Random Quote Generator| [Click Here](./project-4_random_quote_generator) |
-| 05  | Random Background Changer| [Click Here](./project-5_random_color_changer) |
-| 06  | Qr Code Generator| [Click Here](./project-6_qr_code_generator) |
-| 07  | Stopwatch Timer| [Click Here](./project-7_stopwatch_timer) |
-| 08 | Password Generator| [Click Here](./project-8_password_generator) |
-| 09 |Responsive Navbar| [Click Here](./project-9_responsive_navbar) |
-| 10 | 404 Error Page| [Click Here](./project-10_404_error_page) |
-| 11 | Analog Clock| [Click Here](./project-11_analog_clock) |
-| 12 | Contact Form| [Click Here](./project-12_contact_form) |
-| 13 | Analog Clock| [Click Here](./project-13_profile_card) |
-| 14 | Music Preloader| [Click Here](./project-14_music_loader) |
-
-
-### Adding New Projects 
+<table>
+    <tr>
+        <th>#</th>
+        <th>Project Name</th>
+        <th>Link</th>
+    </tr>
+    <tr>
+        <td>01</td>
+        <td>Landing Page</td>
+        <td><a href="./project-1_landing-page">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>02</td>
+        <td>Calculator</td>
+        <td><a href="./project-2_calculator">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>03</td>
+        <td>Wavy Login Form</td>
+        <td><a href="./project-3_wavy_login_form">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>04</td>
+        <td>Random Quote Generator</td>
+        <td><a href="./project-4_random_quote_generator">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>05</td>
+        <td>Random Background Changer</td>
+        <td><a href="./project-5_random_color_changer">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>06</td>
+        <td>Qr Code Generator</td>
+        <td><a href="./project-6_qr_code_generator">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>07</td>
+        <td>Stopwatch Timer</td>
+        <td><a href="./project-7_stopwatch_timer">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>08</td>
+        <td>Password Generator</td>
+        <td><a href="./project-8_password_generator">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>09</td>
+        <td>Responsive Navbar</td>
+        <td><a href="./project-9_responsive_navbar">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>404 Error Page</td>
+        <td><a href="./project-10_404_error_page">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>Analog Clock</td>
+        <td><a href="./project-11_analog_clock">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>Contact Form</td>
+        <td><a href="./project-12_contact_form">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>Profile Card</td>
+        <td><a href="./project-13_profile_card">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>Music Preloader</td>
+        <td><a href="./project-14_music_loader">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>Current Converter</td>
+        <td><a href="./project-15_currency_converter">Click Here</a></td>
+    </tr>
+</table>
 
 ## Installation 🚀
 
