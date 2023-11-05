@@ -3,7 +3,7 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/ArmanIdrisi/frontend-projects)](https://github.com/ArmanIdrisi/frontend-projects/graphs/contributors)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ArmanIdrisi/frontend-projects)](https://github.com/ArmanIdrisi/frontend-projects/commits/main)
 
-This repository contains a collection of frontend projects created by [Arman Idrisi](https://github.com/ArmanIdrisi). Each project is built using HTML, CSS, and JavaScript.
+This repository contains a collection of frontend projects.Each project is built using HTML, CSS, and JavaScript.
 
 ## Projects 📂
 
