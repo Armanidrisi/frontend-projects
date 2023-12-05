@@ -1,0 +1,11 @@
+theme: jekyll-theme-cayman
+
+title: Explore Engaging HTML, CSS, and JavaScript Frontend Projects for Your Next Web Development Adventure
+
+show_downloads: false
+
+include: [README.md]
+
+plugins:
+
+  - jemoji
