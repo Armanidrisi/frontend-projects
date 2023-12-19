@@ -105,6 +105,8 @@ This repository contains a collection of frontend projects.Each project is built
     </tr>
 </table>
 
+
+
 ## Installation 🚀
 
 To run any of the projects locally, simply clone this repository using the following command:
