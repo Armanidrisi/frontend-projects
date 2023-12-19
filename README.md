@@ -90,7 +90,7 @@ This repository contains a collection of frontend projects.Each project is built
     </tr>
     <tr>
         <td>16</td>
-        <td>Currency Converter</td>
+        <td>Pricing card</td>
         <td><a href="./project-16_pricing_component"/>Click Here</a></td>
     </tr>
 </table>
