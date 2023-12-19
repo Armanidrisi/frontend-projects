@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=id, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="modal">
+            <div class="modal__overlay"></div>
+            <div class="modal__content">
+                <div class="modal__header">
+                    <p class="modal__text">Rules</p>
+                    <img class="modal__closeIcon" src="./images/icon-close.svg" alt="close icon">
+                </div>
+                <img class="modal__image" src="./images/image-rules.svg" alt="rules image">
+            </div>
+        </div>
+        <div class="container__content">
+            <header class="header">
+                <p class="header__logo">
+                    <span>
+                        Rock
+                    </span>
+                    <span>
+                        Paper
+                    </span>
+                    <span>
+                        Scissors
+                    </span>
+                </p>
+                <div class="header__scoreContent">
+                    <p class="header__scoreText">score</p>
+                    <p class="header__scoreNumber">0</p>
+                </div>
+            </header>
+            <div class="gameContent">
+                <!-- GAME BACKGROUND-->
+                <div class="gameContent__bg"></div>
+                <!-- GAME TEXT-->
+                <div class="gameContent__text gameContent__text--isYou">You Picked</div>
+                <div class="gameContent__text gameContent__text--isComputer">The house picked</div>
+                <!-- GAME CHOICES-->
+                <div class="gameContent__gameChoice gameContent__gameChoice--isPaper" data-choice="Paper">
+                    <div class="gameContent__image">
+                        <img src="./images/icon-paper.svg" alt="paper choice">
+                    </div>
+                </div>
+                <div class="gameContent__gameChoice gameContent__gameChoice--isScissors" data-choice="Scissors">
+                    <div class="gameContent__image">
+                        <img src="./images/icon-scissors.svg" alt="scissors choice">
+                    </div>
+                </div>
+                <div class="gameContent__gameChoice gameContent__gameChoice--isRock" data-choice="Rock">
+                    <div class="gameContent__image">
+                        <img src="./images/icon-rock.svg" alt="rock choice">
+                    </div>
+                </div>
+                <div class="gameContent__gameChoice gameContent__gameChoice--isComputer">
+                    <div class="gameContent__image">
+                        <span class="gameContent__countdownText"></span>
+                        <img src="" class="gameContent__gameChoiceImage" alt="computer choice" />
+                    </div>
+                </div>
+                <div class="gameContent__result">
+                    <lottie-player src='https://assets10.lottiefiles.com/packages/lf20_aEFaHc.json'
+                                   background="transparent"
+                                   speed="1"
+                                   style="width: 300px; height: 300px;position: absolute;"
+                                   autoplay></lottie-player>
+                    <span class="gameContent__resultText">You Win</span>
+                    <button class="gameContent__resultButton">Play again</button>
+                </div>
+            </div>
+        </div>
+        <div class="container__rules">
+            Rules
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="./scripts.js"></script>
+</body>
+</html>

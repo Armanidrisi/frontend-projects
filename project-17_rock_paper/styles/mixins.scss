@@ -1,0 +1,23 @@
+@mixin mobile {
+   /*target mobile and fablets screens*/
+  @media (max-width: 599px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  /*target tablet and desktop screens*/
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin hide-tag {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@mixin show-tag {
+  opacity: 1;
+  visibility: visible;
+}
