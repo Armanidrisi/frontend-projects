@@ -88,6 +88,11 @@ This repository contains a collection of frontend projects.Each project is built
         <td>Currency Converter</td>
         <td><a href="./project-15_currency_converter">Click Here</a></td>
     </tr>
+    <tr>
+        <td>16</td>
+        <td>Currency Converter</td>
+        <td><a href="./project-16_pricing_component/>Click Here</a></td>
+    </tr>
 </table>
 
 ## Installation 🚀
