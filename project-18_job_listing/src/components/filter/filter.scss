@@ -1,0 +1,89 @@
+@import '../../scss/helpers/variables';
+@import '../../scss/helpers/mixins';
+
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font: {
+    size: 1.3rem;
+    weight: 700;
+  }
+  background: #fff;
+  padding: 1.2rem 2rem;
+  border-radius: 0.5rem;
+  min-height: 7.2rem;
+  box-sizing: border-box;
+  @include shadow;
+
+  @include screen-sm {
+    padding: 1.2rem 4rem;
+  }
+
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__tag {
+    display: flex;
+    align-items: center;
+    background: $background;
+    padding-left: 0.8rem;
+    border-radius: 0.5rem;
+    height: 3.2rem;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 0.8rem 1.6rem 0.8rem 0;
+
+    &::after {
+      content: '';
+      height: 100%;
+      width: 3.2rem;
+      background-color: $dark-cyan;
+      background-image: url('../../images/icon-remove.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-left: 0.8rem;
+      transition: 0.5s ease-in-out;
+    }
+
+    &:hover::after {
+      background-color: $very-dark-grayish-cyan;
+    }
+  }
+
+  &__clear-button {
+    border: 0;
+    background: transparent;
+    padding: 0;
+    font: inherit;
+    line-height: 1;
+    color: $dark-grayish-cyan;
+    cursor: pointer;
+    transition: 0.5s;
+
+    &:hover {
+      color: $dark-cyan;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 0.1rem;
+      background: $dark-cyan;
+      transition: inherit;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+  }
+
+  &__hidden-element {
+    visibility: hidden;
+    position: absolute;
+    bottom: 100%;
+  }
+}

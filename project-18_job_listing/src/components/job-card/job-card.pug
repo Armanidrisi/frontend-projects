@@ -1,0 +1,58 @@
+mixin job-card(options={})
+  -
+    let {
+      jobData: {
+        company,
+        logo,
+        title,
+        date,
+        type,
+        location,
+        isNew,
+        isFeatured,
+        tags: {
+          role,
+          level,
+          languages,
+          tools
+        }
+      },
+      mix
+    } = options
+
+  article.job-card(
+    data-filter-tags=`${role},${level},${languages},${tools}`
+    class=mix
+  )
+    .job-card__content(class=isFeatured ? "job-card__content_featured" : "")
+      //- Logo
+      .job-card__logo
+        .job-card__img-wrapper
+          img(class="job-card__img", src=`./images/${logo}`, alt=`${company} logo`)
+      
+      //- Description
+      .job-card__description
+        //- Company name, labels
+        .job-card__info
+          span.job-card__company= company
+          if isNew
+            span.job-card__label New!
+          if isFeatured
+            span.job-card__label.job-card__label_featured Featured
+        //- Title
+        h2.job-card__title
+          a.job-card__title-link(href="#")= title
+        //- Date, type, location
+        .job-card__info
+          span.job-card__info-item= date
+          span.job-card__info-item= type
+          span.job-card__info-item= location
+
+      //- Tags
+      .job-card__tags
+        span.job-card__tag.js-job-card__tag= role
+        span.job-card__tag.js-job-card__tag= level
+        each tool in tools
+          span.job-card__tag.js-job-card__tag= tool
+        each language in languages
+          span.job-card__tag.js-job-card__tag= language

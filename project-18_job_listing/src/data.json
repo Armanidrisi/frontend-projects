@@ -1,0 +1,168 @@
+{
+  "site": {
+    "title": "Frontend Mentor | Job Listings",
+    "font": "https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap"
+  },
+  "jobItems": [
+    {
+      "company": "Photosnap",
+      "logo": "photosnap.svg",
+      "title": "Senior Frontend Developer",
+      "date": "1d ago",
+      "type": "Full Time",
+      "location": "USA only",
+      "isNew": true,
+      "isFeatured": true,
+      "tags": {
+        "role": "Frontend",
+        "level": "Senior",
+        "languages": ["HTML", "CSS", "JavaScript"],
+        "tools": []
+      }
+    },
+    {
+      "company": "Manage",
+      "logo": "manage.svg",
+      "title": " Fullstack Developer",
+      "date": "1d ago",
+      "type": "Part Time",
+      "location": "Remote",
+      "isNew": true,
+      "isFeatured": true,
+      "tags": {
+        "role": "Fullstack",
+        "level": "Midweight",
+        "languages": ["Python"],
+        "tools": ["React"]
+      }
+    },
+    {
+      "company": "Account",
+      "logo": "account.svg",
+      "title": "Junior Frontend Developer",
+      "date": "2d ago",
+      "type": "Part Time",
+      "location": "USA only",
+      "isNew": true,
+      "isFeatured": false,
+      "tags": {
+        "role": "Frontend",
+        "level": "Junior",
+        "languages": ["JavaScript"],
+        "tools": ["React", "Sass"]
+      }
+    },
+    {
+      "company": "MyHome",
+      "logo": "myhome.svg",
+      "title": "Junior Frontend Developer",
+      "date": "5d ago",
+      "type": "Contract",
+      "location": "USA only",
+      "isNew": false,
+      "isFeatured": false,
+      "tags": {
+        "role": "Frontend",
+        "level": "Junior",
+        "languages": ["CSS", "JavaScript"],
+        "tools": []
+      }
+    },
+    {
+      "company": "Loop Studios",
+      "logo": "loop-studios.svg",
+      "title": "Software Engineer",
+      "date": "1w ago",
+      "type": "Full Time",
+      "location": "Worldwide",
+      "isNew": false,
+      "isFeatured": false,
+      "tags": {
+        "role": "Fullstack",
+        "level": "Midweight",
+        "languages": ["JavaScript", "Ruby"],
+        "tools": ["Sass"]
+      }
+    },
+    {
+      "company": "FaceIt",
+      "logo": "faceit.svg",
+      "title": "Junior Backend Developer",
+      "date": "2w ago",
+      "type": "Full Time",
+      "location": "UK only",
+      "isNew": false,
+      "isFeatured": false,
+      "tags": {
+        "role": "Backend",
+        "level": "Junior",
+        "languages": ["Ruby"],
+        "tools": ["RoR"]
+      }
+    },
+    {
+      "company": "Shortly",
+      "logo": "shortly.svg",
+      "title": "Junior Developer",
+      "date": "2w ago",
+      "type": "Full Time",
+      "location": "Worldwide",
+      "isNew": false,
+      "isFeatured": false,
+      "tags": {
+        "role": "Frontend",
+        "level": "Junior",
+        "languages": ["HTML", "JavaScript"],
+        "tools": ["Sass"]
+      }
+    },
+    {
+      "company": "Insure",
+      "logo": "insure.svg",
+      "title": "Junior Frontend Developer",
+      "date": "2w ago",
+      "type": "Full Time",
+      "location": "USA only",
+      "isNew": false,
+      "isFeatured": false,
+      "tags": {
+        "role": "Frontend",
+        "level": "Junior",
+        "languages": ["JavaScript"],
+        "tools": ["Vue", "Sass"]
+      }
+    },
+    {
+      "company": "Eyecam Co.",
+      "logo": "eyecam-co.svg",
+      "title": "Full Stack Engineer",
+      "date": "3w ago",
+      "type": "Full Time",
+      "location": "Worldwide",
+      "isNew": false,
+      "isFeatured": false,
+      "tags": {
+        "role": "Fullstack",
+        "level": "Midweight",
+        "languages": ["JavaScript", "Python"],
+        "tools": ["Django"]
+      }
+    },
+    {
+      "company": "The Air Filter Company",
+      "logo": "the-air-filter-company.svg",
+      "title": "Front-end Dev",
+      "date": "1mo ago",
+      "type": "Part Time",
+      "location": "Worldwide",
+      "isNew": false,
+      "isFeatured": false,
+      "tags": {
+        "role": "Frontend",
+        "level": "Junior",
+        "languages": ["JavaScript"],
+        "tools": ["React", "Sass"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+mixin attribution(options={})
+  - 
+    let {
+      name = 'Your Name Here',
+      url = '#',
+      mix
+    } = options
+
+  .attribution(class=mix)
+    | Challenge by 
+    a.attribution__link(
+      href="https://www.frontendmentor.io?ref=challenge",
+      target="_blank"
+    ) Frontend Mentor
+    | . Coded by 
+    a.attribution__link(
+      href=url,
+      target="_blank"
+    )= name
+    | .

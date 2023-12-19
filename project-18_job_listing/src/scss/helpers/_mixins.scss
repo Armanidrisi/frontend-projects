@@ -1,0 +1,23 @@
+// Breakpoints
+@mixin tablet {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin screen-sm {
+  @media (min-width: 1000px) {
+    @content;
+  }
+}
+
+@mixin screen-md {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+// Box shadow
+@mixin shadow {
+  box-shadow: 0 1.5rem 2rem -0.5rem rgba($dark-cyan, 0.25);
+}

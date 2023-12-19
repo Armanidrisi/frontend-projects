@@ -1,0 +1,16 @@
+@import '../../scss/helpers/variables';
+
+.attribution {
+  font-size: 1.1rem;
+  color: $dark-grayish-cyan;
+
+  &__link {
+    color: $dark-cyan;
+    text-decoration: none;
+    transition: 0.5s;
+
+    &:hover {
+      color: $very-dark-grayish-cyan;
+    }
+  }
+}

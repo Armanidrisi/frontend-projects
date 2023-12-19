@@ -1,0 +1,211 @@
+@import '../../scss/helpers/variables';
+@import '../../scss/helpers/mixins';
+
+.job-card {
+  padding-top: 2.5rem;
+
+  @include tablet {
+    padding-top: 0;
+  }
+
+  &__content {
+    background: #fff;
+    padding: 2.5rem;
+    border-left: 0.5rem solid #fff;
+    border-radius: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'logo'
+      'description'
+      'tags';
+    @include shadow;
+
+    @include tablet {
+      grid-template-columns: 8.8rem 1fr;
+      grid-template-areas:
+        'logo description'
+        '. tags';
+      column-gap: 2.4rem;
+    }
+
+    @include screen-sm {
+      grid-template-columns: 8.8rem 0.8fr 1fr;
+      grid-template-areas: 'logo description tags';
+      padding: 3.2rem 4rem 3.2rem 3.5rem;
+      column-gap: 2.4rem;
+    }
+
+    &_featured {
+      border-left: 0.5rem solid $dark-cyan;
+    }
+  }
+
+  // Company logo
+
+  &__logo {
+    grid-area: logo;
+    position: relative;
+  }
+
+  &__img-wrapper {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    bottom: 0;
+
+    @include tablet {
+      position: static;
+      width: 8.8rem;
+      height: 8.8rem;
+    }
+  }
+
+  &__img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease-out;
+  }
+
+  &:hover &__img {
+    transform: scale(1.5);
+  }
+
+  // Description
+
+  &__description {
+    grid-area: description;
+    margin: 1rem 0 1.5rem;
+
+    @include screen-sm {
+      margin: 0;
+    }
+  }
+
+  &__info {
+    color: $dark-grayish-cyan;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    min-height: 2.4rem;
+
+    @include screen-sm {
+      font-size: inherit;
+    }
+  }
+
+  &__company {
+    font-weight: 700;
+    color: $dark-cyan;
+    margin-right: 1.2rem;
+  }
+
+  &__label {
+    color: #fff;
+    font: {
+      size: 1.1rem;
+      weight: 700;
+    }
+    text-transform: uppercase;
+    height: 2.2rem;
+    border-radius: 1.2rem;
+    background: $dark-cyan;
+    padding: 0.2rem 0.8rem 0;
+    display: flex;
+    align-items: center;
+    margin-right: 0.8rem;
+
+    &_featured {
+      background: $very-dark-grayish-cyan;
+    }
+  }
+
+  &__title {
+    font-size: inherit;
+    margin: 1.2rem 0;
+
+    @include tablet {
+      font-size: 1.8rem;
+    }
+
+    @include screen-sm {
+      margin: 1.1rem 0 0.6rem;
+    }
+  }
+
+  &__title-link {
+    color: $very-dark-grayish-cyan;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 0.5rem 0;
+
+    &:hover {
+      color: $dark-cyan;
+    }
+  }
+
+  &__info-item {
+    &::after {
+      content: '\2022';
+      margin: 0 0.5rem;
+
+      @include tablet {
+        margin: 0 1rem;
+      }
+
+      @include screen-sm {
+        margin: 0 1.4rem;
+      }
+    }
+
+    &:last-child::after {
+      content: '';
+      margin: 0;
+    }
+  }
+
+  // Tags
+
+  &__tags {
+    grid-area: tags;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid mix($dark-grayish-cyan, #fff, 50%);
+
+    @include screen-sm {
+      border: 0;
+      justify-self: end;
+      align-self: center;
+      justify-content: flex-end;
+    }
+  }
+
+  &__tag {
+    display: flex;
+    align-items: center;
+    min-height: 3.2rem;
+    font: {
+      size: 1.3rem;
+      weight: 700;
+    }
+    background: $background;
+    border-radius: 0.5rem;
+    padding: 0 0.8rem;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    margin-top: 1.6rem;
+    margin-right: 1.6rem;
+
+    @include screen-sm {
+      margin: 0.5rem 0 0.5rem 1.6rem;
+    }
+
+    &:hover {
+      background: $dark-cyan;
+      color: #fff;
+    }
+  }
+}

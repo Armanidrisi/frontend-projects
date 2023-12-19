@@ -1,0 +1,31 @@
+{
+  "name": "job-listings",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "parcel src/index.pug -p 3000 --open",
+    "build": "parcel build src/index.pug --no-source-maps",
+    "prebuild": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "parcel-bundler": "^1.12.4",
+    "postcss-preset-env": "^6.7.0",
+    "pug": "^2.0.4"
+  },
+  "dependencies": {
+    "animejs": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksenius/job-listings.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ksenius/job-listings/issues"
+  },
+  "homepage": "https://github.com/ksenius/job-listings#readme"
+}

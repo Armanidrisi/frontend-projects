@@ -1,0 +1,18 @@
+@import './helpers/variables';
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: {
+    family: 'Spartan', arial sans-serif;
+    size: 1.5rem;
+    weight: 500;
+  }
+  line-height: 1.33;
+  color: $dark-cyan;
+  background-color: $background;
+}

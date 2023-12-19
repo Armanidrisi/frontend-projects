@@ -1,0 +1,5 @@
+*.js text eol=lf
+*.scss text eol=lf
+*.pug text eol=lf
+*.md text eol=lf
+*.json text eol=lf

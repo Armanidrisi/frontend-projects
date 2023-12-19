@@ -98,6 +98,11 @@ This repository contains a collection of frontend projects.Each project is built
         <td>Rock Paper Scissors Game</td>
         <td> <a href="./project-17_rock_paper/">Click Here</a> </td>
     </tr>
+    <tr>
+        <td>18</td>
+        <td>Job Listing</td>
+        <td> <a href="https://job-listings.vercel.app/">Click Here</a> </td>
+    </tr>
 </table>
 
 ## Installation 🚀

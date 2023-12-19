@@ -1,0 +1,16 @@
+@import '../../scss/helpers/variables';
+@import '../../scss/helpers/mixins';
+
+.header {
+  height: 16rem;
+  background-color: $dark-cyan;
+  background-image: url('../../images/bg-header-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include tablet {
+    height: 15.6rem;
+    background-image: url('../../images/bg-header-desktop.svg');
+    background-position: bottom;
+  }
+}

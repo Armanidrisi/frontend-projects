@@ -1,0 +1,29 @@
+@import '../../scss/helpers/variables';
+@import '../../scss/helpers/mixins';
+
+.job-list {
+  display: block;
+
+  &__filter {
+    position: relative;
+    top: -3.6rem;
+    margin-bottom: -3.6rem;
+
+    @include screen-sm {
+      margin-bottom: -7.2rem;
+    }
+  }
+
+  &__cards {
+    margin: 3rem 0 7rem;
+
+    @include screen-sm {
+      margin: 7.6rem 0 12rem;
+    }
+  }
+
+  &__card {
+    margin-bottom: 2.4rem;
+    opacity: 0;
+  }
+}

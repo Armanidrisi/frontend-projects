@@ -1,0 +1,18 @@
+include ../container/container
+include ../job-card/job-card
+
+mixin job-list(options={})
+  -
+    let {
+      jobItems,
+      mix
+    } = options
+
+  main.job-list.js-job-list(class=mix)
+    +container({mix: 'job-list__container js-job-list__container'})
+      .job-list__cards
+        each item in jobItems
+          +job-card({
+            jobData: item,
+            mix: 'job-list__card js-job-list__card'
+          })

@@ -1,0 +1,15 @@
+include ./components/layout/layout
+
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title #{site.title}
+    link(rel="icon", type="image/png", sizes="32x32" href="./images/favicon-32x32.png")
+    link(rel="stylesheet", href=site.font)
+  body
+    +layout
+      block content
+    script(src="https://polyfill.io/v3/polyfill.min.js?features=Element.prototype.append%2CElement.prototype.prepend%2CElement.prototype.remove%2CNodeList.prototype.forEach%2CArray.from")
+    script(src="./js/main.js")

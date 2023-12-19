@@ -1,0 +1,13 @@
+extends base
+
+include ./components/header/header
+include ./components/job-list/job-list
+include ./components/footer/footer
+
+block content
+  +header({mix: 'layout__header'})
+  +job-list({
+    jobItems: jobItems,
+    mix: 'layout__main'
+  })
+  +footer({mix: 'layout__footer'})

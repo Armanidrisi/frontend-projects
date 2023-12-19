@@ -1,0 +1,19 @@
+include ../attribution/attribution
+
+mixin footer(options={})
+  - 
+    let {
+      attribution = {
+        name: 'ksenius',
+        url: 'https://github.com/ksenius'
+      },
+      mix
+    } = options
+
+  footer.footer(class=mix)
+    +attribution({
+      name: attribution.name,
+      url: attribution.url,
+      mix: 'footer__attribution'
+    })
+  

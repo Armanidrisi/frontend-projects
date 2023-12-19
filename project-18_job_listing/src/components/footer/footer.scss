@@ -1,0 +1,10 @@
+.footer {
+  position: relative;
+
+  &__attribution {
+    position: absolute;
+    bottom: 0.5rem;
+    width: 100%;
+    text-align: center;
+  }
+}
