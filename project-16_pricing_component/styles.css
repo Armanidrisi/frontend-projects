@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+:root {
+  --gradient: hsl(236, 72%, 79%), hsl(237, 63%, 64%);
+  --purple: hsl(237, 63%, 64%);
+  --very-light-grayish-blue: hsl(240, 78%, 98%);
+  --light-grayish-blue: hsl(234, 14%, 74%);
+  --grayish-blue: hsl(233, 13%, 49%);
+  --dark-grayish-blue: hsl(232, 13%, 33%);
+  --white: white;
+  --body-font: "Montserrat", sans-serif;
+  --transition: all ease-in-out 0.3s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+  box-sizing: border-box;
+  font-family: var(--body-font);
+  background-color: var(--very-light-grayish-blue);
+  background-image: url("images/bg-top.svg"), url("images/bg-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 26.5%, 26.5%;
+  background-position:
+    top 0 right -1rem,
+    bottom -4.7rem left -1.9rem;
+}
+
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+h1 {
+  color: var(--grayish-blue);
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  padding-bottom: 0;
+  gap: 2.6rem;
+}
+/* Toggle Section */
+nav {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 1.9rem;
+  align-items: center;
+}
+
+.toggle-area {
+  border: none;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  width: 3.8rem;
+  height: 2.3rem;
+  border-radius: 25px;
+  background: linear-gradient(var(--gradient));
+}
+
+.toggle-btn {
+  cursor: pointer;
+  position: relative;
+  width: 1.7rem;
+  height: 1.7rem;
+  margin: 5%;
+  border-radius: 50%;
+  background-color: var(--very-light-grayish-blue);
+}
+
+.toggle-area.monthly {
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+
+.toggle-area.anually {
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.toggle-section p {
+  color: var(--light-grayish-blue);
+}
+
+/* Pricing Section */
+
+.pricing-container {
+  display: grid;
+  width: 72%;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  margin-top: 5.8rem;
+  max-width: 1440px;
+}
+
+.pricing {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  border-radius: 10px;
+  padding: 2.1rem 0.8rem;
+}
+
+.container-2 {
+  background: linear-gradient(var(--gradient));
+  color: var(--white);
+  margin-top: -1.6rem;
+  margin-bottom: -1.6rem;
+  padding: 3rem 1rem;
+}
+.container-1,
+.container-3 {
+  background-color: var(--white);
+  gap: 1.3rem;
+}
+
+.pricing h2 {
+  font-size: 1.23rem;
+  font-weight: 700;
+}
+
+.container-1 h2,
+.container-1 li,
+.container-3 h2,
+.container-3 li {
+  color: var(--light-grayish-blue);
+}
+.pricing p {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 auto;
+  font-size: 4.6rem;
+}
+
+.dollar-sign {
+  font-size: 2.5rem;
+}
+
+.container-1 p,
+.container-3 p {
+  color: var(--dark-grayish-blue);
+}
+
+hr {
+  width: 90%;
+  border-width: 0.5px;
+  margin: 0 auto;
+  border-color: transparent;
+  border-color: var(--light-grayish-blue);
+  border-style: solid;
+  opacity: 0.5;
+}
+.pricing ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.pricing ul li {
+  padding: 1.06rem;
+}
+
+.pricing button {
+  cursor: pointer;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border-radius: 5px;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  padding: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  word-spacing: 3px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.container-2 button {
+  color: var(--purple);
+  background-color: var(--white);
+  transition: var(--transition);
+}
+.container-1 button,
+.container-3 button {
+  color: var(--white);
+  background: linear-gradient(var(--gradient));
+  background-repeat: no-repeat;
+  transition: background ease-in-out 0.3s;
+  transition: color ease-in-out 0.3s;
+}
+
+@media (hover: hover) {
+  .container-1 button:hover,
+  .container-3 button:hover {
+    background: transparent;
+    border-color: var(--light-grayish-blue);
+    color: var(--purple);
+    border-width: 1px;
+    transition: background ease-in-out 0.3s;
+    transition: color ease-in-out 0.3s;
+  }
+  .container-2 button:hover {
+    background-color: transparent;
+    border-color: var(--white);
+    color: var(--white);
+    border-width: 1px;
+    transition: var(--transition);
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .pricing-container {
+    width: 50%;
+    grid-template-columns: 1fr;
+    margin-top: 5.8rem;
+    gap: 5rem;
+  }
+
+  .container-2 {
+    margin-top: initial;
+    margin-bottom: initial;
+  }
+  .container-2 ul li {
+    padding: 1.06rem;
+  }
+
+  .container-2 h2 {
+    padding-top: initial;
+  }
+  .container-2 p {
+    margin-top: initial;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-size: 80%, 26.5%;
+    background-position:
+      top 0 right -10rem,
+      bottom -4.7rem left -1.9rem;
+  }
+  .pricing-container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pricing-container {
+    width: 90%;
+  }
+}
