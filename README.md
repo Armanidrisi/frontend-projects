@@ -93,6 +93,11 @@ This repository contains a collection of frontend projects.Each project is built
         <td>Pricing card</td>
         <td><a href="./project-16_pricing_component"/>Click Here</a></td>
     </tr>
+    <tr>
+        <td>17</td>
+        <td>Age Calculator</td>
+        <td><a href="./project-17_Age_calculator"/>Click Here</a></td>
+    </tr>
 </table>
 
 
