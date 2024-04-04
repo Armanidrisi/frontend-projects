@@ -95,7 +95,7 @@ This repository contains a collection of frontend projects.Each project is built
     </tr>
     <tr>
         <td>17</td>
-        <td>Background Remover</td>
+        <td>Background Remover App</td>
         <td><a href="./project-17_remove_Signature_bg">Click Here</a></td>
     </tr>
 </table>
