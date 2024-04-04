@@ -86,7 +86,7 @@ This repository contains a collection of frontend projects.Each project is built
     <tr>
         <td>15</td>
         <td>Currency Converter</td>
-        <td><a href="./project-15_currency_convertor">Click Here</a></td>
+        <td><a href="./project-15_currrency_convertor">Click Here</a></td>
     </tr>
     <tr>
         <td>16</td>
