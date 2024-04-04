@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>remove_bg</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Remove Background From Your Image</h1>
+      <h4>Upload your image here</h4>
+
+      <form>
+        <div class="img">
+          <img id="uploadedImage" src="./images/remove_bg.png" alt="image" />
+        </div>
+        <div class="btn">
+          <input
+            type="file"
+            id="fileInput"
+            accept=".jpg, .jpeg, .png"
+            style="display: none"
+          />
+          <label id="file" for="fileInput" class="custom-file-input"
+            >Choose File</label
+          >
+
+          <button
+            type="button"
+            id="removeBgButton"
+            onclick="submitHandler()"
+            style="background-color: #673ab7"
+          >
+            <span class="btn__text">Upload</span>
+          </button>
+
+          <div class="btn-container">
+            <button
+              onclick="reset()"
+              id="reloadBtn"
+              style="background-color: #ff5252"
+            >
+              Reset
+            </button>
+            <button
+              style="background-color: #009579"
+              onclick="downloadFile()"
+              id="downloadBtn"
+            >
+              Download
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-size: 62.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+  background: #f8edfa;
+}
+
+h1 {
+  font: 2rem "Cambria", "Cochin", Georgia, Times, "Times New Roman", serif;
+  color: #38464c;
+  letter-spacing: 0.2rem;
+  padding: 0.3rem;
+}
+
+h4 {
+  font: 1rem "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #455a64;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+.img {
+  height: 300px;
+  /* width: auto; */
+  padding: 0.8rem 1.6rem;
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+img {
+  object-fit: contain;
+  width: 90%;
+  height: 90%;
+}
+
+.custom-file-input {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  color: #ffffff;
+  background-color: #f5af09;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  font: bold 15px "Quicksand", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.custom-file-input:hover {
+  background-color: #e09707;
+}
+
+.btn {
+  padding: 1rem;
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  position: relative;
+  padding: 0.8rem 1.6rem;
+  margin: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font: bold 1.2rem "Quicksand", sans-serif;
+  color: #ffffff;
+  transition: all 0.2s;
+}
+
+.btn_loading .btn__text {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.btn_loading::after {
+  content: " ";
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 0.4rem solid transparent;
+  border-radius: 50%;
+  border-top-color: #ffffff;
+  animation: loader 1s ease infinite;
+}
+
+#removeBgButton:active {
+  background: #007a63;
+}
+
+@keyframes loader {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@media screen and (max-width: 760px) {
+  body {
+    font-size: 45%;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  button {
+    font-size: 1rem;
+  }
+  .img {
+    margin: 16px;
+    padding: 0;
+  }
+}
