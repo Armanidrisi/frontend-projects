@@ -101,7 +101,7 @@ This repository contains a collection of frontend projects.Each project is built
      <tr>
         <td>18</td>
         <td>Toggle Dark & Light Mode</td>
-        <td><a href="./project-18_toggle_dark_light_mode>
+        <td><a href="./project-18_toggle_dark_light_mode">
     </tr>
 </table>
 
