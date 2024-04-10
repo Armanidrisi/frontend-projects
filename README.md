@@ -91,7 +91,7 @@ This repository contains a collection of frontend projects.Each project is built
     <tr>
         <td>16</td>
         <td>Pricing card</td>
-        <td><a href="./project-16_pricing_component"/>Click Here</a></td>
+        <td><a href="./project-16_pricing_component">Click Here</a></td>
     </tr>
     <tr>
         <td>17</td>
