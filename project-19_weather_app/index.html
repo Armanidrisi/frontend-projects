@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div class="AppCard">
+
+        <!-- input -->
+        <div class="title">
+            <h1>Weather App</h1>
+            <p>Check Weather searching <span>City Name</span></p>
+        </div>
+        <div class="searchArea">
+            
+            <input id="impTXT" type="text" placeholder="enter city name" spellcheck="false">
+            <!-- search button -->
+            <button type="submit"><img src="img/search.png"></button>
+
+        </div>
+        <!--         
+        <div>
+            <h4 class="error">Error Finding the city...Search Again</h4>
+        </div>
+         -->
+         
+        <!-- display -->
+        <div class="WeatherDisplay">
+    
+            <img src="" class="Weather-Icon">
+           
+            <h1 class="temperature"></h1>
+            <h2 class="city"></h2>
+
+            <!-- details here -->
+            <div class="detailsInfo">
+                <div class="column">
+                    
+                    <img src="img/humidity.png">
+                    <div>
+                        <p class="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+
+                </div>
+
+                <div class="column">
+                    
+                    <img src="img/wind.png">
+                    <div>
+                        <p class="wind"></p>
+                        <p>Wind</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+        
+
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
