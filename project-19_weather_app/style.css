@@ -1,0 +1,135 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #222;
+}
+.AppCard{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(200deg, #fe9000, #8a5469);
+    color: #fefffe;
+    margin: 100px auto 0;
+
+    border-radius: 15px;
+
+    padding: 40px 40px;
+
+    text-align: center;
+    border: 1px solid white;
+}
+
+.searchArea{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.searchArea input{
+    border: 0;
+    outline: 0;
+    background: #35282d;
+    color: #7a7171;
+
+    padding: 15px 25px;
+
+    height: 60px;
+    
+    border-radius: 30px;
+    flex: 1;
+    /* This property is used to make the input field flexible, 
+    so that it can adjust its size according to the available space. */
+
+    margin-right: 16px;
+    font-size: large;
+    
+
+}
+
+
+.Weather-Icon{
+
+    width: 170px;
+    margin-top: 30px;
+}
+
+.searchArea button{
+    border: 0;
+    outline: 0;
+    background: #35282d;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.searchArea button img{
+    width: 20px;
+    padding-top: 5px;
+}
+
+.WeatherDisplay h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.WeatherDisplay h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+
+.detailsInfo{
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+
+}
+
+.column{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.column img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: larger;
+    margin-top: -5px;
+}
+
+
+.WeatherDisplay{
+    display: none;
+}
+
+.title{
+    margin-top: -30px;
+    margin-bottom: 15px;
+}
+
+.title p{
+    font-size: 18px;
+}
+
+.title p span{
+    color:#35282d;
+    font-weight: 800;
+}
+
+
