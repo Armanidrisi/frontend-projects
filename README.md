@@ -98,10 +98,15 @@ This repository contains a collection of frontend projects.Each project is built
         <td>Background Remover App</td>
         <td><a href="./project-17_remove_Signature_bg">Click Here</a></td>
     </tr>
-     <tr>
+    <tr>
         <td>18</td>
         <td>Toggle Dark & Light Mode</td>
         <td><a href="./project-18_toggle_dark_light_mode">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td>Weather App</td>
+        <td><a href="./project-19_weather_app">Click Here</a></td>
     </tr>
 </table>
 
