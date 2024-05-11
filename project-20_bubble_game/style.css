@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer-box {
+    border: 2px solid black;
+    width: 70vw;
+    height: 59%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.navbar {
+    background-color: #55a555;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.value-box {
+    background-color: white;
+    width: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.mr-2 h3,
+p {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.content {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.bubble {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border: 1.5px solid black;
+    border-radius: 50%;
+    background-color: #55a555;
+    margin: 5px 5px;
+
+}
+
+.bubble:hover {
+    background-color: #40a140;
+    cursor: pointer;
+}
+
+.gameOver {
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* border: 2p   x solid; */
+    /* align-items: center; */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    /* height: 80%; */
+}
+
+.gameOver button {
+    width: 16%;
+    height: 40px;
+}
+
+.Starting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.starting-text {
+    width: 16%;
+    height: 40px;
+}
