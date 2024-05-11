@@ -108,6 +108,11 @@ This repository contains a collection of frontend projects.Each project is built
         <td>Weather App</td>
         <td><a href="./project-19_weather_app">Click Here</a></td>
     </tr>
+    <tr>
+        <td>20</td>
+        <td>Bubble Game</td>
+        <td><a href="./project-20_bubble_game">Click Here</a></td>
+    </tr>
 </table>
 
 
