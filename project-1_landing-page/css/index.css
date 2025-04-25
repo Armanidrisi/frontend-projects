@@ -249,7 +249,7 @@ header .navbar .menu-items li a {
 }
 
 #contact {
-  margin: auto;
+  margin:auto;
   width: 100%;
   height: max-content;
   display: flex;
@@ -453,7 +453,7 @@ footer .socials li .bi-linkedin {
     padding: 10px;
   }
   #contact form {
-    width: 350px;
+    width: 320px;
   }
   footer {
     padding: 0;
