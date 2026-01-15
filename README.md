@@ -117,6 +117,10 @@ This repository contains a collection of frontend projects.Each project is built
 
 
 
+## Notice ⚠️
+This repository is not actively maintained right now. I’m a student, so reviews and merges may take time.
+Feel free to open issues and submit pull requests—thank you for your patience!
+
 
 
 ## Installation 🚀
