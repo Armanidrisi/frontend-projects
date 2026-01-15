@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bG {
+    height: 100vh;
+    width: 100vw;
+    /* border: solid red 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+}
+
+#heading {
+    color: white;
+    /* border: solid 2px red; */
+    margin-bottom: 10em;
+    padding-right: 1em;
+    transform: scale(3);
+
+    rotate: -10deg;
+
+    font-family: "Rubik Burned", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 4em; */
+}
+
+#heading:hover {
+    color: yellow;
+}
+
+
+#container {
+    height: 30%;
+    width: 30%;
+    padding-left: 10em;
+    margin-top: 2em;
+    /* border: solid red 2px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#timer_div, #buttons {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 2px cyan; */
+}
+   
+/* #timer_div {
+
+} */
+
+#time {
+    font-size: 5em;
+    color: magenta;
+}
+
+#buttons {
+    /* gap: 1em; */
+    justify-content: space-around;
+}
+
+i {
+    height: 50px;
+    width: 50px;
+    /* color: rando; */
+}
+
+#start, #pause, #reset {
+    background-color: cyan;
+    border: solid 2px transparent;
+    color: black;
+    font-size: 3em;
+    /* height: 20em; */
+    /* width: 10em; */
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#start:hover, #pause:hover, #reset:hover {
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    cursor: pointer;
+}
+
+#time {
+    animation: myAnime infinite infinite;
+}
