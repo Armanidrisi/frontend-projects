@@ -1,0 +1,226 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/*fonts*/
+
+@font-face {
+    font-family: "MyWebFont";
+    src: url("../fonts/Birch.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "aves";
+  src: url("../fonts/Inter_18pt-SemiBoldItalic.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "MyWebFont", sans-serif;
+}
+.occupation p{
+    font-family: "aves", sans-serif;
+}
+/* ALL  img */
+img{
+    height: 50px;
+    width: 50px;
+}
+
+li, a{
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --light-black: #191919ab;
+}
+button{
+    cursor: pointer;
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+.profile img{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+header{
+    padding: 4rem 2rem;
+    display: grid;
+    gap: .5rem;
+    place-items: center;
+}
+
+header .occupation{
+    opacity: .8;
+}
+
+header .socialmedia{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    place-items: center;
+}
+
+header .socialmedia .box{
+    cursor: pointer;
+    background-color: var(--light-black);
+    border-radius: 5px;
+    padding: .5rem 1.5rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#all-links{
+    padding: 2rem 4rem;
+}
+#all-links img{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.socialmedia a{
+    color: #fff;
+}
+
+.link{
+    background-color: var(--light-black);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 1rem 0;
+}
+.link-left{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+.link-left p{
+    opacity: .7; 
+}
+
+#all-links .link-footer button{
+    border: 1px solid #000;
+    padding: .5rem 1rem;
+    font-weight: 600;
+    background-color: var(--light-black);
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#latest-video{
+    background-color: var(--light-black);
+    padding: 2rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#latest-video .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+#latest-video .head p{
+    opacity: .8;
+    cursor: pointer;
+    background-color: none;
+    padding: .5rem 1rem;
+    color: #fff;
+}
+
+.fake-video {
+    cursor: pointer;
+    background-color: #3636367a;
+    display: grid;
+    place-items: center;
+    padding: 5rem 1rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-image: url('../images/phonk.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: color-burn;
+    
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.fake-video:hover{
+    opacity: .9;
+}
+.fake-video img{
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.fake-video img:hover{
+    opacity: .7;
+}
+
+.link button a{
+    color: #fff;
+}
+
+footer{
+    padding: 1rem 2rem 0 2rem;
+}
+
+footer #about{
+    padding: 1rem 2rem 3rem 2rem ;
+}
+footer #about h1{
+    padding: 1rem 0;
+}
+
+footer #copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 0;
+    gap: .2rem;
+    opacity: .3;
+}
+footer #copyright i{
+    font-size: .8rem;
+}
+
+footer #about p{
+    opacity: .7;
+}

@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    header{
+        padding: 4rem 0rem;
+    }
+    #all-links{
+        padding: 1rem .5rem;
+    }
+    .link{
+        padding: 1rem .5rem;
+    }
+    footer #about{
+        padding: 1rem .5rem 3rem .5rem;
+    }
+    .fake-video{
+        background-size: cover;
+    }
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lain's LinkTree</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/toast.css">
+    <link rel="stylesheet" href="styles/mediaquery.css">
+</head>
+
+<body>
+    <div class="notice-toast">
+        <div class="toast">
+            <div class="notice">
+                <div class="left"><i class="bi bi-check"></i></div>
+                <div class="right">
+                    <h4>Email copied</h4>
+                    <small class="countdown"></small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <main>
+        <header>
+            <div class="profile"><img src="images/lain's pfp.jpg" alt=""></div>
+            <div class="stagename">
+                <h1>Lain Killaz</h1>
+            </div>
+            <div class="occupation">
+                <p class="">musician / phonk producer</p>
+            </div>
+            <div class="socialmedia">
+                <div class="box youtube"><a href="https://youtube.com/@lainkillaz?si=jwtnFg-r6OT31OaI">YouTube</a></div>
+                <div class="box email" onclick="copyText()"> <i class="bi bi-copy"></i> Email</div>
+            </div>
+        </header>
+
+        <section id="all-links">
+
+            <!-- youtube -->
+            <div class="link youtube">
+                <div class="link-left">
+                    <div class="link-head"><img src="images/yt.png" alt=""></div>
+                    <div class="link-body">
+                        <h3>YouTube Channel</h3>
+                        <p>lain's official YouTube channel</p>
+                    </div>
+                </div>
+                <div class="link-footer"><a
+                        href="https://youtube.com/@lainkillaz?si=jwtnFg-r6OT31OaI"><button>view</button></a></div>
+            </div>
+
+            <!-- lain's spotify -->
+            <div class="link">
+                <div class="link-left">
+                    <div class="link-head"><img src="images/spotify.png" alt=""></div>
+                    <div class="link-body">
+                        <h3>Artist spotify</h3>
+                        <p>lain's personal spotify</p>
+                    </div>
+                </div>
+                <div class="link-footer"><a
+                        href="https://open.spotify.com/album/4ZVwpYgGWgOME6GxLlQ9sB?si=zAZDHrbAS6W6XA6f3JJ7Jw&utm_source=copy-link"><button>view</button></a>
+                </div>
+            </div>
+
+            <!-- wave phonk -->
+            <div class="link">
+                <div class="link-left">
+                    <div class="link-head"><img src="images/wave-thum.jpeg" alt=""></div>
+                    <div class="link-body">
+                        <h3>Wave Phonk</h3>
+                        <p>Including the Artist like: lxst cxntury, skeler, sakureye, oblxkq...</p>
+                    </div>
+                </div>
+                <div class="link-footer"><a
+                        href="https://open.spotify.com/playlist/3Pze9JZ5li6FgitDLF94sD?si=na3QqvIURQ-IV1zkdrtO5Q"><button>view</button></a>
+                </div>
+            </div>
+
+            <!-- chill phonk -->
+            <div class="link">
+                <div class="link-left">
+                    <div class="link-head"><img src="images/chill.jpg" alt=""></div>
+                    <div class="link-body">
+                        <h3>Chill phonk</h3>
+                        <p>Including the Artist like: dvrst, dxrk, hensonn, glitchery, interworld...</p>
+                    </div>
+                </div>
+                <div class="link-footer"><a
+                        href="https://open.spotify.com/playlist/02A3tlbYK5KMVuEVptBweZ?si=SP_uFBIgSguzHQD01wFj7A"><button>view</button></a>
+                </div>
+            </div>
+
+            <!-- og phonk -->
+            <div class="link">
+                <div class="link-left">
+                    <div class="link-head"><img src="images/og phonk.jpeg" alt=""></div>
+                    <div class="link-body">
+                        <h3>OG phonk</h3>
+                        <p>Including the Artist like: moondiet, kslv, mupp, kordhell...</p>
+                    </div>
+                </div>
+                <div class="link-footer"><a
+                        href="https://open.spotify.com/playlist/0ysnhYlMkcKWDMqTL2InZN?si=ToYxKLvpS2qE6inKZr4LmQ"><button>view</button></a>
+                </div>
+            </div>
+
+            <!-- aggrasive phonk -->
+            <div class="link">
+                <div class="link-left">
+                    <div class="link-head"><img src="images/aggrasive.jpeg" alt=""></div>
+                    <div class="link-body">
+                        <h3>Aggrassive phonk</h3>
+                        <p>Including the Artist like: kslv, playaphonk, mc orsen, kute...</p>
+                    </div>
+                </div>
+                <div class="link-footer"><a
+                        href="https://open.spotify.com/playlist/61bmlpcuuxT9MLyhmsU646?si=pz5mcsLgTnmMDsbR_3mGBg"><button>view</button></a>
+                </div>
+            </div>
+
+            <!-- drift phonk -->
+            <div class="link">
+                <div class="link-left">
+                    <div class="link-head"><img src="images/drift-thum.jpeg" alt=""></div>
+                    <div class="link-body">
+                        <h3>Drift phonk</h3>
+                        <p>Including the Artist like: kaito shoma, ghostface playa, pharmacist, nissanplaya...</p>
+                    </div>
+                </div>
+                <div class="link-footer"><a
+                        href="https://open.spotify.com/playlist/27o2YWY5h6IQIYMj5A8QJw?si=rdWThQ3vTrub2qQzyY6Z0A"><button>view</button></a>
+                </div>
+            </div>
+
+            <!-- latest video -->
+            <section id="latest-video">
+                <div class="video">
+                    <div class="head">
+                        <h3>Latest Video</h3>
+                        <a href="https://youtube.com/@lainkillaz?si=jwtnFg-r6OT31OaI">
+                            <p>YouTube <i class="bi bi-arrow-right"></i></p>
+                        </a>
+                    </div>
+                    <a class="fake-video-a" href="https://youtube.com/@lainkillaz?si=jwtnFg-r6OT31OaI">
+                        <div class="fake-video">
+                            <img src="images/yt.png" alt="">
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+        </section>
+
+        <footer>
+            <section id="about">
+                <h1>What is Phonk Music?</h1>
+                <p>
+                    Phonk is a subgenre of hip-hop and trap music that originated in the 1990s in Memphis, Tennessee. It
+                    is characterized by its lo-fi quality, heavy bass, repetitive lyrics and samples from old-school
+                    hip-hop, funk and soul music. Phonk music often incorporates elements of horrorcore giving it
+                    aneerie ghostly vibe.
+                    <br>
+                    <br>
+                    Overall, phonk music is a unique and captivating genre that blends elements of hip-hop, trap, and
+                    electronic music to create a dark, atmospheric sound. Its lo-fi production, heavy basslines, and
+                    repetitive lyrics have made it a staple of underground music scenes, with a growing global
+                    following.
+                </p>
+            </section>
+
+            <section id="copyright"><i class="bi bi-c-circle"></i> <small> All Right Reserved</small></section>
+        </footer>
+    </main>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
