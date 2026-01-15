@@ -1,37 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
 
 body {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: steelblue;
+  background: linear-gradient(135deg, #667eea, #764ba2);
 }
+
 .stopwatch {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 40px 30px;
+  width: 350px;
+  border-radius: 16px;
   text-align: center;
-  background: rgba(0, 0, 0, 0.3);
-  padding: 30px 0;
-  max-width: 430px;
-  width: 100%;
-  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 }
-h2 {
-  font-weight: 300;
-  color: white;
+
+.stopwatch h2 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
 }
+
 .stopwatch h1 {
-  font-size: 50px;
-  font-weight: 300;
-  color: white;
+  font-size: 48px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
 }
 
 button {
+  flex: 1;
+  margin: 0 5px;
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
   cursor: pointer;
-  display: inline-block;
-  margin: 0 10px;
-  background: lightblue;
-  padding: 15px;
-  font-family: inherit;
-  font-size: 16px;
-  border: 0;
-  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Start Button */
+#start {
+  background: #22c55e;
+  color: #fff;
+}
+
+#start:hover {
+  background: #16a34a;
+}
+
+/* Stop Button */
+#stop {
+  background: #22c55e;
+  color: #fff;
+}
+
+#stop:hover {
+  background: #16a34a;
+}
+
+/* Reset Button */
+#reset {
+  background: #22c55e;
+  color: #fff;
+}
+
+#reset:hover {
+  background: #16a34a;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
