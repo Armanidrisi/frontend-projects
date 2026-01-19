@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background: #222;
+    color: white;
+}
+.stopwatch{
+    width: 90%;
+    max-width: 600px;
+    background-color: #323741;
+    text-align: center;
+    padding: 40px 0 ;
+    color: #fff;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.8);
+}
+.stopwatch h1{
+    margin-top: 60px;
+    font-size: 64px;
+    padding: 15px;
+    margin-top: -1rem;
+    margin: 35px;
+    font-weight: 300;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons .start{
+    width: 80px;
+}
+.buttons img {
+    width: 40px;
+    margin: 0 20px ;
+    cursor: pointer;
+}
