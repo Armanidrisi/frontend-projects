@@ -113,6 +113,11 @@ This repository contains a collection of frontend projects.Each project is built
         <td>Bubble Game</td>
         <td><a href="./project-20_bubble_game">Click Here</a></td>
     </tr>
+    <tr>
+        <td>17</td>
+        <td>Age Calculator</td>
+        <td><a href="./project-17_Age_calculator"/>Click Here</a></td>
+    </tr>
 </table>
 
 
