@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>coming soon </title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <main id="main">
+            <h1 class="txt">coming soon </h1>
+            <p class="countdown"></p>
+            <p class="copyright">&copy;Jafar Mizapoor</p>
+        </main>
+        <script>
+
+            // Countdown date is set to `Jan /1 /2030
+            let countDownDate = new Date("Jan 1, 2030 00:00:00").getTime();
+
+            // Update the count down every 1 second
+            let dateStr = setInterval(function () {
+
+                // Get todays date and time
+                let now = new Date().getTime();
+
+                // Find the distance between now an the count down date
+                let distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Display the result in an element with id="demo"
+                document.querySelector(".countdown").innerHTML =
+                    days + `${days < 10 ? `Day ` : `Days `}`
+                    + hours + `${hours < 10 ? `Hour ` : `Hours `}`
+                    + minutes + `${minutes < 10 ? `Minute ` : `Minutes `}`
+                    + seconds + `${seconds < 10 ? `Second ` : `Seconds `}`;
+
+                // If the count down is finished, write some text
+                if (distance < 0) {
+                    clearInterval(dateStr);
+                    document.querySelector(",countdown").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        </script>
+    </body>
+
+</html>
